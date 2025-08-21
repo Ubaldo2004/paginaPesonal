@@ -56,7 +56,7 @@ const About = () => {
               {/* Placeholder for your photo - replace the src with your actual photo */}
 <div className="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center border-4 border-white shadow-xl overflow-hidden">
   <img 
-    src="./foto-mia.jpg" 
+    src="/foto-mia.jpg" 
     alt="mi foto" 
     className="w-full h-full object-cover"
   />
