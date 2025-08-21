@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { User, Heart, Target } from 'lucide-react';
-import miImagen from './foto-mia.jpg';
+import miImagen from '/foto-mia.jpg';
 
 const About = () => {
   const ref = useRef(null);
