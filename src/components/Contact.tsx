@@ -72,7 +72,7 @@ const Contact = () => {
         >
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <motion.button
-              onClick={() => window.open('mailto:tu.email@ejemplo.com?subject=Hola!%20Me%20gustaría%20trabajar%20contigo')}
+              onClick={() => window.open('mailto:sanchesubaldo3@gmail.com?subject=Hola!%20Me%20gustaría%20trabajar%20contigo')}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
