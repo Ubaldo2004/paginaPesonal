@@ -18,7 +18,7 @@ const About = () => {
     {
       icon: <Heart className="w-6 h-6" />,
       title: "Pasión",
-      description: "Me enMe encanta crear experiencias digitales únicas y aprender nuevas tecnologías constantementecanta crear experiencias digitales únicas"
+      description: "Me encanta crear experiencias digitales únicas y aprender nuevas tecnologías constantemente crear experiencias digitales únicas"
     },
     {
       icon: <Target className="w-6 h-6" />,
