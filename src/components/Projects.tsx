@@ -17,8 +17,8 @@ const Projects = () => {
       delay: 0.1
     },
     {
-      title: 'Task Management App(Proximamente)',
-      description: 'Aplicación de gestión de tareas con drag & drop, calendarios interactivos y colaboración en tiempo real entre equipos de trabajo.',
+      title: 'Task Management App',
+      description: 'Aplicación de gestión de tareas con drag & drop, calendarios interactivos.',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Firebase', 'Material-UI'],
       delay: 0.2
