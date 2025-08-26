@@ -10,28 +10,28 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-commerce Platform',
-      description: 'Plataforma de comercio electrónico completa desarrollada con React y Node.js. Incluye carrito de compras, sistema de pagos y panel de administración.(Proximamente)',
+      title: 'E-commerce Platform(Proximamente)',
+      description: 'Plataforma de comercio electrónico completa desarrollada con React y Node.js. Incluye carrito de compras, sistema de pagos y panel de administración.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Node.js', 'MongoDB'],
       delay: 0.1
     },
     {
-      title: 'Task Management App',
+      title: 'Task Management App(Proximamente)',
       description: 'Aplicación de gestión de tareas con drag & drop, calendarios interactivos y colaboración en tiempo real entre equipos de trabajo.',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Firebase', 'Material-UI'],
       delay: 0.2
     },
     {
-      title: 'Data Analytics Dashboard',
+      title: 'Data Analytics Dashboard(Proximamente)',
       description: 'Dashboard interactivo para visualización de datos con gráficos dinámicos, filtros avanzados y exportación de reportes en múltiples formatos.',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Python', 'Django', 'Chart.js'],
       delay: 0.3
     },
     {
-      title: 'Mobile Banking App',
+      title: 'Mobile Banking App(Proximamente)',
       description: 'Aplicación bancaria móvil con autenticación biométrica, transferencias instantáneas y notificaciones push para transacciones.',
       image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React Native', 'Java', 'PostgreSQL'],

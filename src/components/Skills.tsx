@@ -31,7 +31,7 @@ const Skills = () => {
       delay: 0.3
     },
     {
-      name: 'Java',
+      name: 'JavaScript',
       icon: <Coffee className="w-8 h-8" />,
       description: 'Aplicaciones empresariales y programación orientada a objetos',
       color: 'bg-red-500',
