@@ -23,7 +23,7 @@ const Projects = () => {
       description: 'Aplicación de gestión de tareas con drag & drop, calendarios interactivos.',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Firebase', 'Material-UI'],
-      demoUrl: 'https://pagina-pesonal.vercel.app/', 
+      demoUrl: 'https://task-managment-coral.vercel.app/', 
       githubUrl: 'https://github.com/Ubaldo2004/TaskManagment', 
       delay: 0.2
     },
