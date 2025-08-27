@@ -14,6 +14,8 @@ const Projects = () => {
       description: 'Plataforma de comercio electrónico completa desarrollada con React y Node.js. Incluye carrito de compras, sistema de pagos y panel de administración.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Node.js', 'MongoDB'],
+      demoUrl: 'https://tu-ecommerce-demo.vercel.app', 
+      githubUrl: 'https://github.com/tuusuario/ecommerce-platform', 
       delay: 0.1
     },
     {
@@ -21,6 +23,8 @@ const Projects = () => {
       description: 'Aplicación de gestión de tareas con drag & drop, calendarios interactivos.',
       image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Firebase', 'Material-UI'],
+      demoUrl: 'https://pagina-pesonal.vercel.app/', 
+      githubUrl: 'https://github.com/Ubaldo2004/TaskManagment', 
       delay: 0.2
     },
     {
@@ -28,6 +32,8 @@ const Projects = () => {
       description: 'Dashboard interactivo para visualización de datos con gráficos dinámicos, filtros avanzados y exportación de reportes en múltiples formatos.',
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Python', 'Django', 'Chart.js'],
+      demoUrl: 'https://tu-dashboard-demo.herokuapp.com', 
+      githubUrl: 'https://github.com/tuusuario/analytics-dashboard',
       delay: 0.3
     },
     {
@@ -35,6 +41,8 @@ const Projects = () => {
       description: 'Aplicación bancaria móvil con autenticación biométrica, transferencias instantáneas y notificaciones push para transacciones.',
       image: 'https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React Native', 'Java', 'PostgreSQL'],
+      demoUrl: 'https://tu-banking-demo.surge.sh', 
+      githubUrl: 'https://github.com/tuusuario/banking-app', 
       delay: 0.4
     }
   ];
@@ -96,15 +104,27 @@ const Projects = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <button className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">
+                  {/* 👇 Botón de Demo con link real */}
+                  <a 
+                    href={project.demoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                  >
                     <ExternalLink size={16} />
                     <span>Ver Demo</span>
-                  </button>
+                  </a>
                   
-                  <button className="flex items-center space-x-2 border border-slate-300 text-slate-700 px-4 py-2 rounded-lg hover:bg-slate-50 transition-colors duration-300">
+                  {/* 👇 Botón de GitHub con link real */}
+                  <a 
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 border border-slate-300 text-slate-700 px-4 py-2 rounded-lg hover:bg-slate-50 transition-colors duration-300"
+                  >
                     <Github size={16} />
                     <span>Código</span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>
