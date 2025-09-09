@@ -10,7 +10,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-commerce Platform(Proximamente)',
+      title: 'E-commerce Platform',
       description: 'Plataforma de comercio electrónico completa desarrollada con React y Node.js. Incluye carrito de compras, sistema de pagos y panel de administración.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Node.js', 'MongoDB'],
