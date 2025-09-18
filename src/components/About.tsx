@@ -78,10 +78,11 @@ const About = () => {
               <p className="text-slate-700 leading-relaxed mb-6">
                 ¡Hola! Soy Ubaldo, estudiante de Ingeniería en Sistemas de Información desde 2023.
                 Realicé un curso de Front-End el mismo año, donde aprendí a crear páginas web interactivas usando React, HTML, CSS y JavaScript.
+                Tambien aprendi Programacion Orientada a Objetos y manejo de Archivos y Registros.
               </p>
               
               <p className="text-slate-700 leading-relaxed mb-6">
-                Tengo 20 años y una gran pasión por la tecnología y la programación.
+                Tengo 21 años y una gran pasión por la tecnología y la programación.
                 Me considero una persona que aprende rápido y trabaja muy bien en equipo, siempre dispuesta a enfrentar nuevos desafíos y aportar soluciones creativas.
               </p>
 
