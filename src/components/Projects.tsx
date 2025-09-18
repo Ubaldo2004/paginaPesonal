@@ -14,8 +14,8 @@ const Projects = () => {
       description: 'Plataforma de comercio electrónico completa desarrollada con React y Node.js. Incluye carrito de compras, sistema de pagos y panel de administración.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Node.js', 'MongoDB'],
-      demoUrl: 'https://comercio-electronico-eight.vercel.app/', 
-      githubUrl: 'https://github.com/Ubaldo2004/comercioElectronico', 
+      demoUrl: 'https://comercio-elect.vercel.app/', 
+      githubUrl: 'https://github.com/Ubaldo2004/ComercioElect', 
       delay: 0.1
     },
     {
