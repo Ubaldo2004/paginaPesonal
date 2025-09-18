@@ -81,7 +81,7 @@ const Contact = () => {
             </motion.button>
             
             <motion.a
-              href="./CV.pdf"
+              href="/CV.pdf"
               download="UbaldoSanchez_cv.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
